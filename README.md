@@ -1,42 +1,51 @@
-Hand Gesture Recognition using Machine Learning & Computer Vision
-Overview
+# Hand Gesture Recognition using Machine Learning & Computer Vision
 
+##  Overview
 This project is a real-time Hand Gesture Recognition System that uses Computer Vision and Machine Learning to detect and classify hand gestures through a webcam. It processes live video input and identifies gestures accurately using trained models and hand tracking techniques.
 
-Features
-Real-time hand detection using webcam
-Accurate gesture recognition
-Smooth and fast processing
-Works in live video stream
-User-friendly and lightweight system
+---
+
+##  Features
+- Real-time hand detection using webcam  
+- Accurate gesture recognition  
+- Smooth and fast processing  
+- Works in live video stream  
+- User-friendly and lightweight system  
+
+---
+
+##  Tech Stack
+- **Python**
+- **OpenCV (cv2)** – Image processing and webcam handling  
+- **MediaPipe** – Hand tracking and landmark detection  
+- **TensorFlow** – Machine Learning model (gesture classification)  
+- **NumPy** – Numerical computations  
+
+---
+
+##  How It Works
+1. Captures live video from webcam  
+2. Detects hand landmarks using MediaPipe  
+3. Extracts key points from hand gestures  
+4. Sends data to trained ML model (TensorFlow)  
+5. Predicts and displays the gesture in real time  
+
+---
+
+##  Installation
 
 
-Tech Stack
-*Python 
-*OpenCV (cv2) – Image processing and webcam handling
-*MediaPipe – Hand tracking and landmark detection
-*TensorFlow – Machine Learning model (gesture classification)
-*NumPy – Numerical computations
-
-How It Works
-Captures live video from webcam
-Detects hand landmarks using MediaPipe
-Extracts key points from hand gestures
-Sends data to trained ML model (TensorFlow)
-Predicts and displays the gesture in real time
-
-Installation
-1️. Clone the repository
+# 1. Clone the repository
 git clone https://github.com/Shrutisingh0104/hand-gesture-recognition.git
-2️. Navigate to project folder
-cd hand-gesture-recognition
-3️. Install dependencies
-pip install -r requirements.txt
-4. Run the Project
-python app.py
 
-Project Structure
-hand-gesture-recognition/
+# 2. Navigate to project folder
+cd hand-gesture-recognition
+
+# 3. Install dependencies
+pip install -r requirements.txt
+
+# 4. Run the project
+python app.py
 │
 ├── app.py                  # Main application file
 ├── model/                 # Trained ML model 
@@ -50,23 +59,4 @@ hand-gesture-recognition/
 
 
 
-Future Improvements
-Improve accuracy with larger dataset
-Add more gesture classes
-Deploy as a web app or mobile app
-Add voice feedback for gestures
-
-Skills Demonstrated
-Computer Vision
-Machine Learning
-Real-time video processing
-Python programming
-Model integration
-
-Author
-Shruti Singh
-
-Note
-
-If you like this project, give it a ⭐ on GitHub!
 
