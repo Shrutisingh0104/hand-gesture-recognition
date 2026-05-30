@@ -1,9 +1,9 @@
 Hand Gesture Recognition using Machine Learning & Computer Vision
-📌 Overview
+Overview
 
 This project is a real-time Hand Gesture Recognition System that uses Computer Vision and Machine Learning to detect and classify hand gestures through a webcam. It processes live video input and identifies gestures accurately using trained models and hand tracking techniques.
 
-🚀 Features
+Features
 Real-time hand detection using webcam
 Accurate gesture recognition
 Smooth and fast processing
@@ -11,7 +11,7 @@ Works in live video stream
 User-friendly and lightweight system
 
 
-🛠️ Tech Stack
+Tech Stack
 *Python 
 *OpenCV (cv2) – Image processing and webcam handling
 *MediaPipe – Hand tracking and landmark detection
@@ -44,9 +44,9 @@ hand-gesture-recognition/
 ├── README.md              # Project documentation
 └── dataset/ (optional)    # Training data
  Output
-<img width="786" height="633" alt="Screenshot 2026-05-30 132031" src="https://github.com/user-attachments/assets/58d9225b-3f50-4abe-b119-0fa8c3e7bf9b" />
-<img width="786" height="633" alt="Screenshot 2026-05-30 132031" src="https://github.com/user-attachments/assets/e7029e4d-8915-44e8-9b84-878ab090ea0d" />
-<img width="803" height="660" alt="Screenshot 2026-05-30 132149" src="https://github.com/user-attachments/assets/894097a6-6fab-420c-a59b-b9caffbee8aa" />
+<img width="150" height="100" alt="Screenshot 2026-05-30 132031" src="https://github.com/user-attachments/assets/58d9225b-3f50-4abe-b119-0fa8c3e7bf9b" />
+<img width="150" height="100" alt="Screenshot 2026-05-30 132031" src="https://github.com/user-attachments/assets/e7029e4d-8915-44e8-9b84-878ab090ea0d" />
+<img width="150" height="100" alt="Screenshot 2026-05-30 132149" src="https://github.com/user-attachments/assets/894097a6-6fab-420c-a59b-b9caffbee8aa" />
 
 
 
@@ -63,9 +63,8 @@ Real-time video processing
 Python programming
 Model integration
 
- Author
+Author
 Shruti Singh
-GitHub: https://github.com/your-Shrutisingh0104
 
 Note
 
