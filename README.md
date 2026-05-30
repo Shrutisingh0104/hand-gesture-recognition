@@ -1,26 +1,73 @@
-# Hand Gesture Recognition
+Hand Gesture Recognition using Machine Learning & Computer Vision
+📌 Overview
 
-A real-time Hand Gesture Recognition project using Python, OpenCV, and MediaPipe.
+This project is a real-time Hand Gesture Recognition System that uses Computer Vision and Machine Learning to detect and classify hand gestures through a webcam. It processes live video input and identifies gestures accurately using trained models and hand tracking techniques.
 
-## Features
-- Real-time hand tracking using webcam
-- Recognizes multiple hand gestures
-- Detects:
-  - Palm ✋
-  - Thumb 👍
-  - Fist ✊
-  - Index ☝️
-  - L Gesture
+🚀 Features
+Real-time hand detection using webcam
+Accurate gesture recognition
+Smooth and fast processing
+Works in live video stream
+User-friendly and lightweight system
 
-## Technologies Used
-- Python
-- OpenCV
-- MediaPipe
-- TensorFlow
 
-## How to Run
+🛠️ Tech Stack
+*Python 
+*OpenCV (cv2) – Image processing and webcam handling
+*MediaPipe – Hand tracking and landmark detection
+*TensorFlow – Machine Learning model (gesture classification)
+*NumPy – Numerical computations
 
-### 1. Clone Repository
+How It Works
+Captures live video from webcam
+Detects hand landmarks using MediaPipe
+Extracts key points from hand gestures
+Sends data to trained ML model (TensorFlow)
+Predicts and displays the gesture in real time
 
-```bash
+Installation
+1️. Clone the repository
 git clone https://github.com/Shrutisingh0104/hand-gesture-recognition.git
+2️. Navigate to project folder
+cd hand-gesture-recognition
+3️. Install dependencies
+pip install -r requirements.txt
+4. Run the Project
+python app.py
+
+Project Structure
+hand-gesture-recognition/
+│
+├── app.py                  # Main application file
+├── model/                 # Trained ML model 
+├── requirements.txt       # Dependencies
+├── README.md              # Project documentation
+└── dataset/ (optional)    # Training data
+ Output
+<img width="786" height="633" alt="Screenshot 2026-05-30 132031" src="https://github.com/user-attachments/assets/58d9225b-3f50-4abe-b119-0fa8c3e7bf9b" />
+<img width="786" height="633" alt="Screenshot 2026-05-30 132031" src="https://github.com/user-attachments/assets/e7029e4d-8915-44e8-9b84-878ab090ea0d" />
+<img width="803" height="660" alt="Screenshot 2026-05-30 132149" src="https://github.com/user-attachments/assets/894097a6-6fab-420c-a59b-b9caffbee8aa" />
+
+
+
+Future Improvements
+Improve accuracy with larger dataset
+Add more gesture classes
+Deploy as a web app or mobile app
+Add voice feedback for gestures
+
+Skills Demonstrated
+Computer Vision
+Machine Learning
+Real-time video processing
+Python programming
+Model integration
+
+ Author
+Shruti Singh
+GitHub: https://github.com/your-Shrutisingh0104
+
+Note
+
+If you like this project, give it a ⭐ on GitHub!
+
