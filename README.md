@@ -23,4 +23,4 @@ A real-time Hand Gesture Recognition project using Python, OpenCV, and MediaPipe
 ### 1. Clone Repository
 
 ```bash
-git clone <your-repo-link>
+git clone https://github.com/Shrutisingh0104/hand-gesture-recognition.git
